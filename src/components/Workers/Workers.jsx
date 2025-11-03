@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import "./Workers.css";
 const ContactForm = () => {
 
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <>
@@ -58,7 +58,7 @@ const ContactForm = () => {
       </section>
 
       <div className="coright">
-        <p>© 2025 OTABEK & MARAT. All rights reserved.</p>
+        <p>© 2025 OLIMOV G'OLIB. All rights reserved.</p>
         <span>
           Designed by{" "}
           <a style={{ textDecoration: "none", color: "rgba(255, 255, 255, 1)", }}

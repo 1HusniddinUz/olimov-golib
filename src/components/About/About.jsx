@@ -12,7 +12,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const [openCards, setOpenCards] = useState([]);
   const [visible, setVisible] = useState(3);
