@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap');
+
+#Sarlavha {
+    width: 100%;
+}
+
+.sarlavha-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 350px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.header-text-animate {
+    font-size: 46px;
+    color: white;
+}
+
+
+
+.sarlavxa-proces {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+
+}
+
+.sarlavxa-proces h1 {
+    font-optical-sizing: auto;
+    font-size: 38px;
+    font-family: "Playfair Display", serif;
+    color: #4B2E05;
+}
+
+.sarlavxa-proces p {
+    font-family: "Poppins", sans-serif;
+    line-height: 35px;
+    font-size: 19px;
+    color: #27241f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive  */
+
+@media screen and (max-width: 418px) {
+    .sarlavha-container {
+        flex-direction: column;
+    }
+
+    .about-sarlavxa {
+        width: 100%;
+        height: 400px;
+    }
+
+    .about-sarlavxa img {
+        width: 60%;
+    }
+
+    .sarlavxa-proces {
+        width: 100%;
+    }
+
+    .sarlavxa-proces h1 {
+        font-size: 26px;
+    }
+
+    .sarlavxa-proces p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .pp {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .sarlavha-container {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .about-sarlavxa {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    .about-sarlavxa img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .sarlavxa-proces {
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        color: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .sarlavxa-proces h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sarlavxa-proces p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+}
+
+
+
+/* Big Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .sarlavha-container {
+        margin-top: 0;
+    }
+
+
+
+    .sarlavxa-proces {
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        top: -20px;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    .sarlavxa-proces h1 {
+        font-size: 26px;
+    }
+
+    .sarlavxa-proces p {
+        font-size: 17px;
+        line-height: 28px;
+
+    }
+
+    .sarlavha-container {
+        width: 760px;
+        flex-direction: column;
+    }
+
+    .about-sarlavxa {
+        width: 100%;
+        position: relative;
+        top: -170px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .sarlavha-container {
+        width: 960px;
+    }
+
+    .sarlavxa-proces {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sarlavxa-proces h1 {
+        font-size: 30px;
+    }
+
+    .sarlavxa-proces p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+/* Desktop */

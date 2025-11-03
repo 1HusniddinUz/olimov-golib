@@ -1,0 +1,77 @@
+import { useTranslation } from "react-i18next";
+import "./Workers.css";
+const ContactForm = () => {
+
+  const { t, i18n } = useTranslation()
+
+  return (
+    <>
+      <section className="ContactForm" id="Contact">
+        <div className="containerr">
+          {/* === CONTACT BOX === */}
+          <div className="contact_box" data-aos="fade-up" data-aos-duration="1500" >
+            <div className="contact_info">
+              <h2>{t(`Bizbilanboglaning`)}</h2>
+              <p className="contact_desc">
+                {t(`Savollaringizbolsa`)}
+              </p>
+
+              <div className="social_links">
+                <a
+                  href="https://t.me/+998997076324"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Telegram"
+                >
+                  <i className="fa-brands fa-telegram"></i> {t(`Telegram`)}
+                </a>
+                <a
+                  href="https://instagram.com/golimov848gmail.com_
+"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <i className="fa-brands fa-instagram"></i> {t(`Instagram`)}
+                </a>
+                <a href="tel:+998934748880" aria-label="Telefon">
+                  <i className="fa-solid fa-phone"></i> +998 (99) 707‒63‒24
+                </a>
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=golimov848@gmail.com" target="_blank"
+                  rel="noopener noreferrer" aria-label="Telefon">
+                  <i class="fa-solid fa-envelope"></i> {t(`Email`)}
+                </a>
+              </div>
+            </div>
+
+            <div className="map_box">
+              <iframe
+                className="contact-iframe"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d5139.344746072585!2d64.58509657958398!3d40.011291679185334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDAwJzQxLjUiTiA2NMKwMzUnMTQuNCJF!5e0!3m2!1sru!2s!4v1761237637218!5m2!1sru!2s"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe></div>
+          </div>
+        </div>
+      </section>
+
+      <div className="coright">
+        <p>© 2025 OTABEK & MARAT. All rights reserved.</p>
+        <span>
+          Designed by{" "}
+          <a style={{ textDecoration: "none", color: "rgba(255, 255, 255, 1)", }}
+            href="https://t.me/buxoro_tadbirkorlar_klubi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Buxoro Tadbirkorlari Biznes Klubi
+          </a>
+        </span>
+      </div>
+    </>
+  );
+};
+
+export default ContactForm;

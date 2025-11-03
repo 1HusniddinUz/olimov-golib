@@ -1,0 +1,370 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+  max-width: 1200px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+  font-optical-sizing: auto;
+  border-radius: 50px;
+}
+
+.header-logo img {
+  height: 70px;
+}
+
+.header-back {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.678);
+}
+
+.header-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+  .market-dropdown {
+      position: relative;
+  }
+
+  .market-btn {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: #222;
+      transition: color 0.2s ease;
+  }
+
+  .market-btn:hover {
+      color:#5a4a45 ;
+  }
+
+  .market-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+      display: none;
+      flex-direction: column;
+      min-width: 160px;
+      padding: 6px 0;
+      z-index: 1000;
+  }
+
+  .market-menu a {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      padding: 8px 14px;
+      font-size: 14px;
+      color: #333;
+      text-decoration: none;
+      transition: background 0.2s ease;
+  }
+
+  .market-menu a:hover {
+      background: #f2f2f2;
+  }
+
+  .market-dropdown:hover .market-menu {
+      display: flex;
+  }
+
+.header-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  transition: 1s;
+}
+
+.header-container ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+}
+
+.header-container ul li a {
+  color: black;
+  font-size: 20px;
+}
+
+.header-contact {
+  padding: 5px 20px;
+  position: relative;
+  right: 30px;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.xx {
+  display: none;
+}
+
+.header-bars {
+  display: none;
+  font-size: 40px;
+  position: relative;
+  top: 5px;
+}
+
+.header-button {
+  display: none;
+}
+
+.xxa {
+  text-decoration: none;
+  color: white;
+}
+
+
+.header-button {
+
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.header-button option {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.header-contact {
+  font-family: 'Poppins', sans-serif;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #ffffff00;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.header-contact option {
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.container.header-container.white {
+  background-color: white;
+  border: 2px solid black;
+}
+
+
+
+/* Bayroqcha fonlari */
+.flag-uz {
+  background-image: url('https://flagcdn.com/w20/uz.png');
+}
+
+.flag-ru {
+  background-image: url('https://flagcdn.com/w20/ru.png');
+}
+
+.flag-en {
+  background-image: url('https://flagcdn.com/w20/gb.png');
+}
+
+/* Mobile */
+
+@media screen and (max-width: 418px) {
+  .header-back {
+    top: -100px;
+  }
+
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    background-color: rgb(6, 6, 6);
+    top: 40px;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    transition: ease 0.5s;
+  }
+
+  .container ul.active {
+    right: 0;
+  }
+
+  .container ul li a {
+    font-size: 30px;
+    color: white;
+  }
+}
+
+.header-contact button {
+  right: 0;
+}
+
+.header-bars {
+  display: block;
+}
+
+/* Tablet */
+@media screen and (min-width: 350px) and (max-width: 768px) {
+  .header-back {
+    top: -100px;
+  }
+
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    background-color: rgba(6, 6, 6, 0.995);
+    top: -21px;
+    left: 120%;
+    width: 120%;
+    height: 100vh;
+    border-radius: 0 0;
+    justify-content: center;
+    transition: ease 0.5s;
+    z-index: 999 !important;
+  }
+
+  .container ul.active {
+    left: -10%;
+    z-index: 999 !important;
+  }
+
+  .container ul li a {
+    font-size: 30px;
+    color: white;
+  }
+
+  .header-contact button {
+    right: 0;
+  }
+
+  .header-bars {
+
+    display: block;
+    transform: rotate(180deg);
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    padding: 10px 30px;
+    width: 90%;
+    border-radius: 4rem;
+  }
+
+  .header-contact {
+    display: none;
+  }
+
+  .header-container ul .xx {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 200px;
+  }
+
+  .header-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .header-button .header-icon a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .header-icon {
+    margin-right: 10px;
+  }
+}
+
+/* Big Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    max-width: 760px;
+  }
+
+  .header-bars {
+    display: none;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .header-bars {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-bars {
+    display: none;
+  }
+}
+
+.Contact {
+  text-decoration: none;
+  color: white;
+}
