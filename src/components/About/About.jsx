@@ -45,7 +45,7 @@ const About = () => {
     {
       id: 3,
       rasm: gips3,
-      price: "1 900 000" + " " + t(`sum`),
+      price: " 2 000 000" + " " + t(`sum`),
       workabout: t(`ishlar3`),
       duration: "1" + " " + t(`day`),
       haqida: t(`haqida2`),
@@ -61,7 +61,7 @@ const About = () => {
     {
       id: 5,
       rasm: gips5,
-      price: "1 200 000" + " " + t(`sum`),
+      price: "6 500 000" + " " + t(`sum`),
       workabout: t(`ishlar5`),
       duration: "2" + " " + t(`day`),
       haqida: t(`haqida4`),
@@ -69,7 +69,7 @@ const About = () => {
     {
       id: 6,
       rasm: gips6,
-      price: "1 200 000" + " " + t(`sum`),
+      price: "1 700 000" + " " + t(`sum`),
       workabout: t(`ishlar6`),
       duration: "3" + " " + t(`day`),
       haqida: t(`haqida5`),
@@ -77,7 +77,7 @@ const About = () => {
     {
       id: 7,
       rasm: gips7,
-      price: "1 200 000" + " " + t(`sum`),
+      price: "2 200 000" + " " + t(`sum`),
       workabout: t(`ishlar7`),
       duration: "6" + " " + t(`day`),
       haqida: t(`haqida6`),
@@ -85,7 +85,7 @@ const About = () => {
     {
       id: 8,
       rasm: gips8,
-      price: "1 200 000" + " " + t(`sum`),
+      price: "1 700 000" + " " + t(`sum`),
       workabout: t(`ishlar8`),
       duration: "2" + " " + t(`day`),
       haqida: t(`haqida7`),
@@ -93,7 +93,7 @@ const About = () => {
     {
       id: 9,
       rasm: gips9,
-      price: "1 200 000" + " " + t(`sum`),
+      price: "1 700 000" + " " + t(`sum`),
       workabout: t(`ishlar9`),
       duration: "1" + " " + t(`day`),
       haqida: t(`haqida8`),
